@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AJAX CRUD FOR ADMIN</title>
+    <title>AJAX CRUD FOR Admin</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
@@ -22,7 +22,7 @@
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 class="text-center">Admin Product Management with AJAX</h4>
+                        <h4 class="text-center">admin Product Management with AJAX</h4>
                     </div>
                     <div class="col-md-12 mb-4 text-right">
                         <a class="btn btn-success" href="javascript:void(0)" id="createNewProduct"> <i class="fas fa-plus"></i></a>

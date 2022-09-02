@@ -19,7 +19,8 @@ class ProductsController extends Controller
         $role = Auth::user()->role;
         if($role == '1'){
             $products = Product::all();
-            return view('admin.index',['products'=>$products]);
+            $categories=Category::all();
+            return view('admin.index',['products'=>$products,'categories'=>$categories]);
 
         }
         else{

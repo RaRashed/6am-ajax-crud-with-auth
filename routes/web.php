@@ -25,9 +25,9 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::resource('products',ProductsController::class);
-
+    Route::resource('admin',AdminController::class);
 
 });
-Route::resource('admin',AdminController::class);
+
 
 
